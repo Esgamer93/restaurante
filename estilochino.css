@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:3px;
+    margin-bottom: 3px;
+    font-family: 'Lora'; 
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(#3b1d65,#210d26);
+    color: #fff;
+    height: 100vh;
+}
+
+header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    padding-bottom: 50px;
+}
+header .logo h1{
+    letter-spacing: 5px;
+}
+
+header .logo h3{
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+
+.seleccionada{
+    border-bottom: 3px solid #ff7f4d;
+}
+
+header nav a:hover{
+    border-bottom: 3px solid #ff7f4d;
+}
+
+#inicio{
+    background-color: #3a2b4b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border: 3px solid #ff7f4d;
+    border-radius: 10px;
+}
+
+.contenedor {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.superior h1{
+    font-size: 55px;
+    margin: 0;
+}
+
+.superior .ready {
+    color:#ff7f4d;
+    font-size: 45px;
+    margin-bottom: 10px;
+
+}
+
+.superior p{
+    margin:10px 0;
+}
+
+.superior .lorem{
+    color: #ff7f4d;
+    font-size: 12px;
+    max-width: 300px;
+    text-align: justify;
+}
+
+.superior .direccion {
+
+    font-weight: bold;
+}
+
+.inferior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda a{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.derecha{
+    text-align: right;
+}
+
+.derecha img{
+    max-width: 330px;
+}
+

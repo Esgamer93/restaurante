@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:3px;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    font-family: 'Lora'; 
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(#3b1d65,#210d26);
+    color: #fff;
+    height: 100vh;
+}
+
+header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    padding-bottom: 50px;
+}
+header .logo h1{
+    letter-spacing: 5px;
+}
+
+header .logo h3{
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+
+.seleccionada{
+    border-bottom: 3px solid #ff7f4d;
+}
+
+header nav a:hover{
+    border-bottom: 3px solid #ff7f4d;
+}
+
+section{
+    max-width: 1100px;
+    margin: auto;
+    border: 3px solid #ff7f4d;
+    border-radius: 15px;
+}
+
+#inicio .fila{
+    display: flex;
+}
+
+
+#inicio .fila .izq{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#inicio .fila .izq img{
+    margin-left: 0px;
+    width: 110%;
+    height: auto;
+}    
+
+#inicio .fila .der{
+    margin-top: 10px;
+    margin-right: 0px;
+  
+    flex-direction: column;
+    text-align: right;
+}
+
+#inicio .fila .der h1{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+ #inicio .fila .der h3{
+    font-size: 40px;
+    margin-top: 0px;
+    
+ }
+
+ .destacado{
+    color: #ff7f4d;
+}
+
+ #inicio .fila .der p{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 9px;
+    color: #ff7f4d;
+    display: flex;
+ }
+
+
+#inicio .fila .der .contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inicio .fila .der .redes a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#inicio .fila .der .contacto .redes a:hover{
+    color: #ff7f4d
+}
+

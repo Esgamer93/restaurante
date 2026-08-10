@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand'; 
+}
+
+body{
+    background: linear-gradient(#3b1d65,#210d26);
+    color: #fff;
+    height: 100vh;
+}
+
+header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    padding-bottom: 50px;
+}
+header .logo h1{
+    letter-spacing: 5px;
+}
+
+header .logo h3{
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+
+
+section{
+    max-width: 1100px;
+    margin: auto;
+    border: 4px solid #ff7f4d;
+    border-radius: 15px;
+}
+
+#inicio .fila{
+
+    display: flex;
+    padding: 50px 150px 20px 10px;
+}
+
+
+
+#inicio .fila .izq{
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    }
+
+#inicio .fila .izq{
+        
+        margin-left: 30px;
+        margin-right: 5px;
+}
+
+.destacado{
+        color: #ff7f4d;
+}
+
+#inicio .fila .izq h2{
+    margin-top: 50px;
+    font-size: 60px;
+    margin-bottom: 2px;
+}
+
+#inicio .fila .izq h1{
+        font-size: 100px;
+        margin-top: 0px;
+}
+
+#inicio .fila .izq h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: bold;
+}
+
+#inicio .fila .izq p{
+ font-weight: bold;   
+ font-size: 14px;
+ text-align: left;
+ margin-right: 70px;
+}   
+   
+
+#inicio .fila .der{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+#inicio .fila .der .redes{
+    text-align: right;
+    margin-leftt: 100px;
+}
+
+#inicio .fila .der .redes a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+#inicio .fila .der .redes a:hover{
+    color: #ff7f4d
+}
+
+#inicio .fila .der img{
+    width: 140%;
+    margin-right: 30px;
+}
+
+
+
